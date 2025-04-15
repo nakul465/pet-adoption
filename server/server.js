@@ -282,6 +282,16 @@ app.post("/api/contact", (req, res) => {
     res.status(500).json({ message: "Internal server error" });
   }
 });
+// API: Get all Contact Us messages
+app.get("/api/contact-messages", (req, res) => {
+  try {
+    const messages = JSON.parse(fs.readFileSync(CONTACT_US_FILE));
+    res.json(messages);
+  } catch (err) {
+    console.error("Fetch contact messages error:", err);
+    res.status(500).json({ message: "Internal server error" });
+  }
+});
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
