@@ -230,7 +230,7 @@ app.post("/api/approve", (req, res) => {
 // Reject application
 app.post("/api/reject", (req, res) => {
   try {
-    const { petId, applicantEmail } = req.body;
+    const { petId, applicantEmail    } = req.body;
 
     let applications = JSON.parse(fs.readFileSync(APPLICATIONS_FILE));
 
