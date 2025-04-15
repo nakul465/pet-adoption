@@ -1,0 +1,73 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 10%;
+    background-color: #ffffff;
+}
+
+.hero-section {
+    text-align: left;
+}
+
+.hero-text {
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: Comic Sans MS, cursive;
+    white-space: pre-line;
+    color: #333;
+}
+
+.hero-subtext {
+    font-family: Comic Sans MS, cursive;
+    font-size: 18px;
+    color: #555;
+    max-width: 500px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.adopt-pet-button {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 20px;
+}
+
+.adopt-button {
+    background-color: orange;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.adopt-button:hover {
+    background-color: darkorange;
+}
+
+.image-container {
+    flex-shrink: 0;
+}
+
+.main-image {
+    width: 400px;
+    height: auto;
+    margin-left: 200px;
+    border: 5px solid #ffffff;
+}

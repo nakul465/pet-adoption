@@ -1,0 +1,79 @@
+.adoption-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centers content */
+    justify-content: center;
+    text-align: center;
+    padding: 100px 10%;
+}
+
+/* Center the heading */
+.adoption-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: orange; /* Changed color to orange */
+    text-decoration: underline; /* Added underline */
+}
+
+/* Pet details box */
+.pet-details-box {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.pet-details-box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Adoption form */
+.adoption-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.adoption-form label {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.adoption-form input,
+.adoption-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.adoption-form button {
+    background-color: orange;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+}
+
+.adoption-form button:hover {
+    background-color: darkorange;
+}
